@@ -28,10 +28,6 @@ local database will be created as [./backend/database.dev.jsonl](./database.dev.
 
 the app is hosted on [fly.io][] and can be deployed by running
 
-```sh
-fly deploy
-```
-
 from the root directory. It's is also automatically deployed for every new commit in master to
 
 [sveltekit]: https://sveltekit.io/
