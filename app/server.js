@@ -10,9 +10,9 @@ const env = (name, fallback) => {
 	return prefixed in process.env ? process.env[prefixed] : fallback;
 };
 
-const path = env('SOCKET_PATH', false);
-const host = env('HOST', '0.0.0.0');
-const port = env('PORT', !path && '3000');
+const path = env('SOCKET', false);
+const host = env('H', '0.0.0.0');
+const port = env('P', !path && '3000');
 
 const server = createServer();
 polka({ server })
