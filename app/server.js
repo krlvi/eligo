@@ -11,7 +11,6 @@ const env = (name, fallback) => {
 };
 
 const path = env('SOCKET', false);
-const host = env('H', '0.0.0.0');
 const port = env('P', !path && '3000');
 
 const server = createServer();
