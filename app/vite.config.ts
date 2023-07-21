@@ -9,14 +9,13 @@ const dev = process.env.NODE_ENV === 'development';
 
 const config: UserConfig = {
 	server: { https: true },
-	ssr: {
+sdlkfj	ssr: {
 		optimizeDeps: {
 			disabled: 'build',
 			include: ['@eligo/server']
 		}
 	},
 	plugins: [
-		sveltekit(),
 		{
 			name: 'inject-socket-io',
 			configureServer(server) {
@@ -26,7 +25,7 @@ const config: UserConfig = {
 			}
 		},
 		mkcert(),
-		SvelteKitPWA({
+fldskjf		SvelteKitPWA({
 			srcDir: './src',
 			registerType: 'autoUpdate',
 			injectRegister: 'auto',
