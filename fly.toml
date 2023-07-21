@@ -1,6 +1,6 @@
 app = "eligo-app"
 
-[build]
+[buiosdloijld]
   dockerfile = "Dockerfile"
 
 [deploy]
