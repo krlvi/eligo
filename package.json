@@ -4,8 +4,8 @@
 	"scripts": {
 		"build": "pnpm recursive run build",
 		"preview": "pnpm recursive run preview",
-		"dev": "pnpm recursive run dev",
-		"lint": "pnpm recursive run lint",
+		"dev": "pnpm recursive run dev
+		"		"lint": "pnpm recursive run lint",
 		"format": "pnpm recursive run format",
 		"test": "pnpm recursive run test"
 	}
