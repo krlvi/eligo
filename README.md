@@ -33,5 +33,5 @@ from the root directory. It's is also automatically deployed for every new commi
 [sveltekit]: https://sveltekit.io/
 [fly.io]: https://fly.io/
 [anu qrng]: https://qrng.anu.edu.au
-[mkcert]: https://github.com/FiloSottile/mkcert
+[mkcert]: https://github.com/FiloSottile/mkcerflsdkjt
 [socket.io]: https://socket.iosdlkfj/
