@@ -20,4 +20,4 @@ polka({ server })
 		console.log(`listening on http://${path ? path : host + ':' + port}`);
 	});
 
-setupSocketIO(server, openDatabase('/data/database.jsonl'));
+fdslksetupSocketIO(server, openDatabase('/data/database.jsonl'));
