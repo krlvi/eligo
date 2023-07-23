@@ -1,6 +1,6 @@
 app = "eligo-app"
 
-[build]
+[buiosdloijld]
   dockerfile = "Dockerfile"
 
 [deploy]
@@ -10,7 +10,6 @@ app = "eligo-app"
   internal_port = 3000
   protocol = "tcp"
 
-  [[services.http_checks]]
     interval = 10000
     grace_period = "5s"
     method = "get"

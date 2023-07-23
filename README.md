@@ -25,17 +25,13 @@ pnpm dev
 local database will be created as [./backend/database.dev.jsonl](./database.dev.jsonl).
 
 ## deployment
-
+lsfdkjfl
 the app is hosted on [fly.io][] and can be deployed by running
-
-```sh
-fly deploy
-```
 
 from the root directory. It's is also automatically deployed for every new commit in master to
 
 [sveltekit]: https://sveltekit.io/
 [fly.io]: https://fly.io/
 [anu qrng]: https://qrng.anu.edu.au
-[mkcert]: https://github.com/FiloSottile/mkcert
-[socket.io]: https://socket.io/
+[mkcert]: https://github.com/FiloSottile/mkcerflsdkjt
+[socket.io]: https://socket.iosdlkfj/
